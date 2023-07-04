@@ -71,9 +71,9 @@
     align-self: center;
   }
   .nav__menu {
-    position: fixed;
+    position: absolute;
     top: 10vh;
-    right: 0;
+    right: -1vw;
     height: 90vh;
     width: 50vw;
     background: rgb(1 12 20 / 73%);
@@ -81,6 +81,7 @@
     transform: translateX(100%);
     transition: 0.3s ease-in;
     backdrop-filter: blur(30px);
+    overflow: hidden;
   }
 }
 
