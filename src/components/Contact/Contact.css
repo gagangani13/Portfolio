@@ -24,7 +24,7 @@
 }
 
 .sm{
-    width: 80vw;
+    width: auto;
     display: flex;
     justify-content: space-evenly;
     margin: 2rem auto;
