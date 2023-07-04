@@ -49,7 +49,7 @@
   justify-content: space-around;
   gap: 2rem;
   width: 70vw;
-  margin: 0 1rem;
+  margin: 0;
 }
 
 .nav__toggler {
@@ -81,7 +81,6 @@
     transform: translateX(100%);
     transition: 0.3s ease-in;
     backdrop-filter: blur(30px);
-    overflow: hidden;
   }
 }
 
