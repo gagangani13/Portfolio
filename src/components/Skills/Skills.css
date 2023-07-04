@@ -1,0 +1,73 @@
+.skills {
+  position: relative;
+  width: 80vw;
+  left: 10vw;
+  color: var(--text-color);
+  margin: 10rem 0;
+  box-shadow: 0 2px 5px bisque;
+  border: 2px solid;
+  background: var(--bg-comp);
+  font-size: large;
+  font-weight: 500;
+  padding: 15px;
+}
+
+.skillsList {
+  row-gap: 1rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  color: darkgray;
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 5px solid #000000;
+  padding: 3px;
+  box-shadow: 0 0 10px #fff, 0 0 9px #fff, 0 0 4px #fff, 0 0 1px #ff00de00,
+    0 0 32px #ff00de00, 0 0 24px #ff00de00, 0 0 67px #ff00de00,
+    0 0 92px #ff00de00;
+}
+
+.div {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: start;
+  column-gap: 0.5rem;
+}
+
+.div p {
+  margin: auto;
+}
+
+#skillsAnim {
+  width: 25vw;
+  height: 25vh;
+  margin: auto;
+}
+
+.skillTitle {
+  width: 40vw;
+}
+
+.animSkill {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+  .skillsList {
+    grid-template-columns: auto auto auto auto auto !important;
+  }
+  .skillsList div p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .skillsList {
+    grid-template-columns: auto auto auto auto !important;
+  }
+}
