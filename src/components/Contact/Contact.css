@@ -54,3 +54,29 @@
 .topBtn:hover{
     box-shadow: 0 0 0;
 }
+
+.wave-animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  
+  .word {
+    font-size: 24px;
+    font-weight: bold;
+    animation: wave 1.5s ease-in-out infinite;
+  }
+  
+  @keyframes wave {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
