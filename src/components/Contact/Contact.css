@@ -37,14 +37,18 @@
 
 .topBtn{
     padding: 5px;
+    position: relative;
     border-radius: 50%;
     width: 35px;
     height: 35px;
+    bottom: 2vh;
     border: 2px solid var(--text-color);
     text-align: center;
     background: transparent;
     color: var(--text-color);
     box-shadow: 0 2px 36px;
+    margin-bottom: 1vh;
+
 }
 
 .topBtn:hover{

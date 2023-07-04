@@ -14,13 +14,6 @@
   justify-content: space-between;
 }
 
-#Navbar {
-  width: 50vw;
-  display: flex;
-  justify-content: space-around;
-  height: -webkit-fill-available;
-  align-items: center;
-}
 
 .NavLink {
   font-family: "Exo 2", sans-serif;
@@ -38,17 +31,11 @@
   height: initial;
 }
 
-.NavLink {
-  color: unset;
-  text-decoration: none;
-}
-
 .nav__menu {
   display: flex;
   align-items: center;
   justify-content: space-around;
   gap: 2rem;
-  width: 70vw;
   margin: 0 1rem;
 }
 
@@ -71,17 +58,16 @@
     align-self: center;
   }
   .nav__menu {
-    position: absolute;
+    position: fixed;
     top: 10vh;
-    right: -1vw;
+    right: -10vw;
     height: 90vh;
-    width: 50vw;
+    width: 60vw;
     background: rgb(1 12 20 / 73%);
     flex-direction: column;
     transform: translateX(100%);
     transition: 0.3s ease-in;
     backdrop-filter: blur(30px);
-    overflow: hidden;
   }
 }
 
