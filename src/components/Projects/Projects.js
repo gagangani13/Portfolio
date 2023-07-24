@@ -82,13 +82,13 @@ const Projects = () => {
       <Slider {...settings}>
         <div className="project">
           <h5>Chat App</h5>
-          <a href="http://3.232.208.74:3000/" target="blank">
+          <a href="https://gagan-chat-app.vercel.app/" target="blank">
             <img src={Chat} alt="chatApp" />
           </a>
         </div>
         <div className="project">
           <h5>Expense Tracker</h5>
-          <a href="http://100.26.115.160:3000/" target="blank">
+          <a href="https://gagan-expense-tracker.vercel.app/" target="blank">
             <img src={Expense} alt="expenseTracker" />
           </a>
         </div>
