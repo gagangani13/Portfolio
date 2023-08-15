@@ -2,6 +2,7 @@ import React from "react";
 import "./Contact.css";
 import gmail from "./gmail.jpg";
 import linkedIn from "./linkedIn.jpg";
+import github from '../Skills/git.jpg'
 import { Element } from "react-scroll";
 import { FaArrowUp } from "react-icons/fa";
 
@@ -43,6 +44,9 @@ const Contact = () => {
             target="blank"
           >
             <img src={linkedIn} alt="linkedIn" className="linkedIn" />
+          </a>
+          <a href="https://github.com/gagangani13" className="animate__animated animate__pulse animate__infinite" target="blank">
+            <img src={github} alt="github" className="github"/>
           </a>
           </div>
       </Element>
