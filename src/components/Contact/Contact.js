@@ -15,7 +15,7 @@ const Contact = () => {
   };
   return (
     <>
-      <Element name="Contact" className="formLayout">
+      <Element name="Contact" className="formLayout" data-aos="flip-left">
         <h2 className="wave-animation">
           Thank you for visiting my Portfolio
           <span role="img" aria-label="smiley" className="word">

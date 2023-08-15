@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Header.css";
 import { Link } from "react-scroll";
 import animation from "./Gagan.gif";
 import { useState } from "react";
 import { motion } from "framer-motion";
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+AOS.init();
+
 const navLinkVariant = {
   initial: { scale: 1 },
   whileHover: {
@@ -34,6 +38,9 @@ const Header = () => {
       behavior: "smooth",
     });
   };
+  useEffect(() => {
+    AOS.refresh();
+  }, []);
   return (
     <header className="header">
       <img

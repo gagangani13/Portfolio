@@ -77,7 +77,7 @@ const Projects = () => {
     dotsClass: "slick-dots"
   };
   return (
-    <Element name="Projects" className="projects">
+    <Element name="Projects" className="projects" data-aos="flip-left">
       <h2>Projects</h2>
       <Slider {...settings}>
         <div className="project">
