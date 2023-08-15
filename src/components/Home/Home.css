@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yatra+One&display=swap");
 
 section {
   min-height: 100vh;
@@ -29,8 +29,8 @@ section {
   color: darkgray;
 }
 
-.myName h1 span{
-  font-family: 'Yatra One', cursive;
+.myName h1 span {
+  font-family: "Yatra One", cursive;
   color: #16c0ab;
 }
 
@@ -43,7 +43,7 @@ section {
   font-size: 3rem;
   font-weight: 700;
   color: transparent;
-  -webkit-text-stroke: 0.7px  darkgray;
+  -webkit-text-stroke: 0.7px darkgray;
   position: relative;
   display: inline-block;
   overflow: hidden;
@@ -51,22 +51,21 @@ section {
   white-space: nowrap;
   border-right: 1px solid;
   width: 18ch; /* Adjust the width as needed */
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", cursive;
 }
 
-.myName .devAnimate .text .fullstack{
-  -webkit-text-stroke: 0.7px  #16c0ab;
-  font-family: 'Kaushan Script', cursive;
+.myName .devAnimate .text .fullstack {
+  -webkit-text-stroke: 0.7px #16c0ab;
+  font-family: "Kaushan Script", cursive;
 }
-
 
 @keyframes typing {
-    from {
-        width: 0;
-      }
-      to {
-        width: 14ch; /* Adjust the width as needed */
-      }
+  from {
+    width: 0;
+  }
+  to {
+    width: 14ch; /* Adjust the width as needed */
+  }
 }
 
 .myName p {
@@ -95,8 +94,7 @@ section {
   background-position: -100% 0;
 }
 
-
-@media screen and (max-width:1100px) {
+@media screen and (max-width: 1100px) {
   section {
     padding: 10rem 9% 1rem;
   }
@@ -105,38 +103,38 @@ section {
   }
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width: 900px) {
   .myName p {
     margin: 2rem 8rem 2rem 0;
     font-size: 1.2rem;
   }
-  .projects{
+  .projects {
     width: 90vw !important;
     left: 5vw !important;
   }
-  .skills{
+  .skills {
     width: 90vw !important;
     left: 5vw !important;
   }
-  .section{
+  .section {
     padding: 2rem 5% 0rem;
   }
-  .formLayout{
+  .formLayout {
     width: 90vw !important;
     left: 5vw !important;
   }
 }
 
-@media screen and (max-width:800px) {
-  .skillsList{
+@media screen and (max-width: 800px) {
+  .skillsList {
     row-gap: 1rem;
     display: grid;
-    grid-template-columns: auto auto auto!important;
+    grid-template-columns: auto auto auto !important;
     justify-content: space-around;
   }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .myName h1 {
     font-size: 3rem;
     margin-top: 4rem;
@@ -148,9 +146,12 @@ section {
     font-size: 1.2;
     margin: 2rem 0;
   }
+  #contactAnim {
+    width: 70vw !important;
+  }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
   .myName h1 {
     font-size: 2rem;
     margin-top: 1rem;
@@ -158,12 +159,12 @@ section {
   .myName .devAnimate .text {
     font-size: 1.5rem;
   }
-  .myName p{
+  .myName p {
     font-size: inherit;
   }
 }
 
-@media screen and (max-width:300px) {
+@media screen and (max-width: 300px) {
   .myName h1 {
     font-size: 2rem;
     margin-top: 0rem;
@@ -171,7 +172,7 @@ section {
   .myName .devAnimate .text {
     font-size: 1rem;
   }
-  .myName p{
+  .myName p {
     font-size: inherit;
   }
   .talkBtn {

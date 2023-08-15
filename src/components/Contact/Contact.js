@@ -30,7 +30,6 @@ const Contact = () => {
           autoplay
           id="contactAnim"
         ></lottie-player>
-        <h2>Contact me</h2>
         <div className="sm">
           <a
             href="mailto:gagangani17@gmail.com"
@@ -49,6 +48,7 @@ const Contact = () => {
             <img src={github} alt="github" className="github"/>
           </a>
           </div>
+          <a href="https://drive.google.com/file/d/18t0vFq544qa5PeLtNytr1NcaepdkE7MY/view?usp=sharing" id="Resume" target="blank">View Resume</a>
       </Element>
       <button className="topBtn" type="button" onClick={scrollToTop}>
         <FaArrowUp />
