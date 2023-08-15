@@ -10,6 +10,7 @@ const navLinkVariant = {
     scale: 1.1,
     fontWeight: "bold",
     transition: { duration: 0.25, type: "tween" },
+    cursor:'pointer'
   },
 };
 
